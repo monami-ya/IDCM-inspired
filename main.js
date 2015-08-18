@@ -60,7 +60,7 @@ function callee(peer) {
     code.errorCorrection = code.ERROR_CORRECTION.H;
     var input = new qr.Input();
     input.dataType = input.DATA_TYPE.TEXT;
-    input.data = 'http://192.168.43.244:8084/#' + peerId; // Should be fixed.
+    input.data = 'https://monami-ya.github.io/IDCM-inspired/#' + peerId; // Should be fixed.
     var matrix = new qr.Matrix(input, code);
     matrix.scale = 4;
     matrix.margin = 2;
